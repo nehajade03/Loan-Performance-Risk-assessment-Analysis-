@@ -373,6 +373,7 @@ These allow the user to interactively explore loan records.
 ### 📥 **PBIX File Location**
 
 The full interactive dashboard is stored in:
+Dashboard Link 
 <img width="1156" height="691" alt="image" src="https://github.com/user-attachments/assets/393c5354-fcd5-485c-bc53-aa5a545d006d" />
 
 <img width="1129" height="732" alt="image" src="https://github.com/user-attachments/assets/200db4a3-2bda-44bf-a4c8-971e6719beab" />
@@ -381,7 +382,95 @@ The full interactive dashboard is stored in:
 
 
 Drill Through Page 
+
 <img width="652" height="499" alt="image" src="https://github.com/user-attachments/assets/2eb376c9-f2b9-409f-8c8e-6edaaf7bd90b" />
+
+---
+
+## 10. Key Insights
+
+After analyzing the loan dataset and generating the Power BI dashboard, several meaningful patterns and risk indicators were identified:
+
+### 🔹 1. High Default Rates in Longer Loan Terms  
+Customers with **longer loan durations** show a significantly higher probability of default.  
+The scatter plot confirms a **positive correlation** between loan term length and default percentage.
+
+### 🔹 2. Younger Customers Apply for More Loans  
+The age group **25–35 years** represents the highest number of loan applications.  
+This suggests high financial activity among young professionals.
+
+### 🔹 3. Payment Amounts Show Monthly Fluctuations  
+The **Monthly Paid Amount** trend reveals inconsistent payment behavior, indicating:
+- Salary cycle influence  
+- Seasonal payment irregularities  
+- Possible financial stress periods
+
+### 🔹 4. Most Loans Fall Under Medium Risk  
+The Risk Level donut chart indicates that the majority of customers fall into the **Medium Risk** category, with a smaller but notable **High Risk** segment requiring close monitoring.
+
+### 🔹 5. Defaulted Customers Have Lower Credit Scores  
+Customers classified under **High Risk** or those who default tend to have significantly **lower credit scores** compared to the overall average.
+
+### 🔹 6. Approved Loans Dominate Loan Lifecycle  
+A major portion of applications is **approved**, while rejection counts remain comparatively low—suggesting a lenient approval process that might contribute to defaults.
+
+---
+
+## 11. Recommendations
+
+### ✅ 1. Implement Stricter Credit Score Thresholds  
+Defaulted customers show much lower credit scores.  
+Recommendation:  
+- Increase the **minimum credit score requirement** for approval  
+- Conduct deeper verification for borderline scores  
+
+### ✅ 2. Introduce Risk-Based Interest Rates  
+To offset losses from high-risk customers:  
+- Charge **higher interest rates** to High Risk borrowers  
+- Offer **discounted rates** to Low Risk borrowers to attract safer customers  
+
+### ✅ 3. Monitor Long-Term Loans More Closely  
+Since longer-term loans have higher default rates:  
+- Add **mid-term assessments** and risk reviews  
+- Consider **limiting loan tenure** for High Risk applicants  
+
+### ✅ 4. Launch Financial Education for Young Borrowers  
+Since young borrowers dominate loan applications:  
+- Provide **basic financial planning resources**  
+- Encourage responsible borrowing  
+
+### ✅ 5. Enhance Monthly Payment Tracking  
+Payment fluctuations indicate potential financial instability.  
+Implement:  
+- Automated reminders  
+- Predictive alerts for delayed payments  
+- Incentives for consistent payment behavior  
+
+### ✅ 6. Increase Rejection Criteria for High-Risk Profiles  
+Given that approval rates are high even for risky profiles:  
+- Tighten KYC verification  
+- Add income-to-loan ratio checks  
+- Mandate collateral for loans above a risk threshold  
+
+---
+
+## 12. Conclusion
+
+This project provides a complete view of loan performance and customer risk using Power BI.  
+Through data analysis, modeling, and visualization, several important trends emerged:
+
+- Default probability increases with loan term length  
+- Credit score strongly correlates with risk and repayment behavior  
+- Younger customers form the majority of applicants  
+- Medium and high-risk customers require more attention  
+- Monthly payments show irregular patterns, signaling financial inconsistencies  
+
+The dashboard delivers actionable insights for improving loan approvals, customer evaluation, and financial risk management.  
+By implementing the recommendations, organizations can reduce default rates, increase repayment consistency, and make more informed lending decisions.
+
+Overall, this end-to-end project demonstrates how **data-driven decision-making** can significantly enhance loan portfolio performance and risk assessment.
+
+
 
 
 
