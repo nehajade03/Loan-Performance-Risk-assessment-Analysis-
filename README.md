@@ -278,6 +278,8 @@ It consists of **multiple visuals** arranged to deliver insights in a clean and 
 
 ### 🎨 **Dashboard Pages**
 
+Live Dashboard
+https://app.powerbi.com/view?r=eyJrIjoiYjkzMWVhNTQtNjgzYy00ZjE0LWFjODgtZDczODdjZThjODhlIiwidCI6ImRjYTQzZGFkLTVkYzAtNDQwZC05NWNlLWZkZDE5MGUyNWZkZSJ9
 #### **1. Loan Overview Dashboard**
 This main page provides a high-level summary of loan KPIs and performance metrics.
 
