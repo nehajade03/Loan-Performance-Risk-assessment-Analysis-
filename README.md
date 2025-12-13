@@ -165,9 +165,6 @@ The modeling structure supports:
 This project uses several DAX measures to compute KPIs, aggregations, default metrics, credit score calculations, and risk levels.  
 These measures help drive the analytical visuals in the Loan Risk Assessment Dashboard.
 
----
-
-### 🔹 **1. Total Loan Amount**
 Total Loan Amount = SUM(LoanPerformance[loan_amount])
 
 Age Group = SWITCH(TRUE(),
@@ -276,10 +273,10 @@ It consists of **multiple visuals** arranged to deliver insights in a clean and 
 
 ---
 
-### 🎨 **Dashboard Pages**
+### 🎨 **Dashboard**
 
-Live Dashboard
-https://app.powerbi.com/view?r=eyJrIjoiYjkzMWVhNTQtNjgzYy00ZjE0LWFjODgtZDczODdjZThjODhlIiwidCI6ImRjYTQzZGFkLTVkYzAtNDQwZC05NWNlLWZkZDE5MGUyNWZkZSJ9
+**Live Dashboard Link:** [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjkzMWVhNTQtNjgzYy00ZjE0LWFjODgtZDczODdjZThjODhlIiwidCI6ImRjYTQzZGFkLTVkYzAtNDQwZC05NWNlLWZkZDE5MGUyNWZkZSJ9)
+
 #### **1. Loan Overview Dashboard**
 This main page provides a high-level summary of loan KPIs and performance metrics.
 
@@ -361,24 +358,14 @@ Includes dynamic filters:
 
 These allow the user to interactively explore loan records.
 
----
+### **Interactive 4-Page Dashboard with Drill-Through**
+Created a 4-page interactive dashboard with drill-through functionality to analyze and visualize data effectively. Incorporated multiple charts and KPIs to track trends, insights, and performance metrics, enabling easy exploration of underlying data.
 
-### 📌 **Dashboard Design Notes**
-- Dark theme for modern & clean look  
-- Teal accent color for highlights  
-- Consistent spacing and layout  
-- Simple icons for clarity  
-- Visuals aligned for readability  
-
----
-
-### 📥 **PBIX File Location**
-
-The full interactive dashboard is stored in:
-Dashboard Link 
 <img width="1156" height="691" alt="image" src="https://github.com/user-attachments/assets/393c5354-fcd5-485c-bc53-aa5a545d006d" />
 
+
 <img width="1129" height="732" alt="image" src="https://github.com/user-attachments/assets/200db4a3-2bda-44bf-a4c8-971e6719beab" />
+
 
 <img width="1264" height="692" alt="image" src="https://github.com/user-attachments/assets/46aa7eb0-d58b-48f5-92bb-70453a34bd30" />
 
