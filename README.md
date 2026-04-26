@@ -12,7 +12,7 @@
 - [Dashboard Development (Pages & Visuals)](#dashboard-development-pages--visuals)
 - [Key Insights](#key-insights)
 - [Recommendations](#recommendations)
-- [Conclusion (optional)](#conclusion-optional)
+- [Conclusion](#conclusion)
 
 ## Introduction
 
